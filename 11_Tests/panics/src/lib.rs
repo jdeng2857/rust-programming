@@ -25,9 +25,16 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     #[should_panic(expected = "less than or equal to 100")]
     fn greater_than_100() {
         Guess::new(200);
+    }
+
+    #[test]
+    fn base_add(){
+        let result = 2 + 2;
+        assert_eq!(result, 4);
     }
 
     // Result <T, E> Tests

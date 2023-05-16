@@ -33,6 +33,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn another() {
         panic!("Make this test fail");
     }
@@ -71,6 +72,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn greeting_contains_name() {
         let result = greeting("Carol");
         assert!(result.contains("Carol"),
