@@ -1,0 +1,1 @@
+/Users/jerrydeng/Learning/rust-programming/12_IO_Project/minigrep/target/debug/minigrep: /Users/jerrydeng/Learning/rust-programming/12_IO_Project/minigrep/src/lib.rs /Users/jerrydeng/Learning/rust-programming/12_IO_Project/minigrep/src/main.rs
